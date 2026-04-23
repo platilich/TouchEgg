@@ -12,7 +12,7 @@ A simple clicker game where you touch an egg.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/u004226-ctrl/touchEgg.git
+   git clone https://github.com/platilich/touchEgg.git
    ```
 2. Navigate to the project directory:
    ```bash
