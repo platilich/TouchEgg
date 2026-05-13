@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang='ru' xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta charset="UTF-8">
+
+
+    <title>KrekshTouch</title>
+    <link rel="stylesheet" href='style.css'>
+    <link rel="stylesheet" href="css.css">
+    <link rel="icon" href="media/egg/egg4.png" type="image/x-icon">
+
+
+</head>
+
+
+<body>
+
+    <div class="overlay" id="overlay">
+        <div class="popup">
+            <h2>About</h2>
+
+            <div>
+                <h4>KrekshTouch — 2026</h4>
+                <h4>Formerly: TouchEgg</h4>
+            </div>
+
+            <div>
+                <button class="music_button" id="playSound" type="button" aria-pressed="false">Play Sound</button>
+                <button class="music_button" id="toggleDark" type="button" aria-pressed="false">Dark Mode</button>
+            </div>
+
+            <div>
+                <h4>Open source: <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></h4>
+                <h4><a href="https://github.com/platilich/KrekshTouch" target="_blank" rel='noopener noreferrer'>Developed for Firefox</a></h4>
+            </div>
+
+            <div>
+                <h4>Egg name by Mike</h4>
+                <h4>Developed by Plat Ilich</h4>
+                <p class="story">Kreksh was suggested by a friend — I liked the name and used it. Later I decided to rebrand: the game is now KrekshTouch; it used to be TouchEgg.</p>
+            </div>
+
+            <div class="actions">
+                <button id="close" type="button">Close</button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <header>
+        <h1>KrekshTouch</h1>
+        <p id = 'count'>0$</p>
+    </header>
+
+
+    <main>
+        <img class="egg1 egg" src="media/egg/egg0.png">
+    </main>
+
+
+    <footer>
+        <p class='count_left'>Click on the egg</p>
+        <p id="about">About</p>
+    </footer>
+
+
+
+
+
+    <audio>
+        <source src = "media/audio/gta.mp3" type="audio/mpeg">
+    </audio>
+
+    
+
+
+
+<script src="script.js"></script>
+<script src='main.js'></script>
+<script src="popup.js"></script>
+<script src="audio.js"></script>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+<script src="https://unpkg.com/howler/dist/howler.core.min.js"></script>
+
+</body>
+</html>
